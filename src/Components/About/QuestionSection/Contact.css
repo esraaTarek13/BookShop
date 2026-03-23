@@ -1,0 +1,10 @@
+@layer utilities {
+
+  .contact-form input:-webkit-autofill,
+  .contact-form input:-webkit-autofill:hover,
+  .contact-form input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset !important;
+    -webkit-text-fill-color: var(--secondary-text-color) !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+}

@@ -1,0 +1,21 @@
+.categories-scroll {
+  padding-bottom: 8px;
+}
+
+.categories-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+.categories-scroll::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 50px;
+}
+
+.categories-scroll::-webkit-scrollbar-thumb {
+  background: var(--btn-color);
+  border-radius: 50px;
+}
+
+.categories-scroll::-webkit-scrollbar-thumb:hover {
+  background: #aa044c;
+}

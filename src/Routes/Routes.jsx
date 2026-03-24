@@ -4,7 +4,6 @@ import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
 import Books from "../Pages/Books/Books";
 import Cart from "../Pages/Cart/Cart";
-import CheckOut from "../Pages/CheckOut/CheckOut";
 import Login from "../Pages/Login/Login";
 import Signup from "../Pages/Signup/Signup";
 import Profile from "../Pages/Profile/Profile";
@@ -15,6 +14,7 @@ import AddCode from "../Pages/AddCode/AddCode";
 import OrderHistory from "../Pages/OrderHistory/OrderHistory";
 import Error from "../Pages/Error/Error";
 import SingleBook from "../Pages/SingleBook/SingleBook";
+import CheckOut from './../Pages/Checkout/Checkout';
 
 
 const router = createBrowserRouter([

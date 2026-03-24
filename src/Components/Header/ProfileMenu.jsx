@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import useModalStore from "../../Stores/useModalStore";
 import { ProfileMenuItems } from "../../Constants/ProfileMenuItems";
-import { UseLogOut } from "../../Hooks/UseLogout";
+import { UseLogOut } from './../../Hooks/UseLogOut';
 
 export default function ProfileMenu() {
   const isOpen = useModalStore((state) => state.isProfileMenuOpen);

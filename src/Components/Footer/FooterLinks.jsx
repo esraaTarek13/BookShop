@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import FooterIcons from "./FooterIcons";
-import { navLinks } from "../../constants/NavLinks";
+import { navLinks } from "../../Constants/NavLinks";
 
 
 export default function FooterLinks() {

@@ -1,4 +1,4 @@
-import "./categories.css";
+import "./Categories.css";
 
 export default function Categories({
   items,

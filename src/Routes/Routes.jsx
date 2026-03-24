@@ -14,7 +14,7 @@ import AddCode from "../Pages/AddCode/AddCode";
 import OrderHistory from "../Pages/OrderHistory/OrderHistory";
 import Error from "../Pages/Error/Error";
 import SingleBook from "../Pages/SingleBook/SingleBook";
-import CheckOut from './../Pages/Checkout/Checkout';
+import Checkout from './../Pages/Checkout/Checkout';
 
 
 const router = createBrowserRouter([
@@ -45,7 +45,7 @@ const router = createBrowserRouter([
                },
                {
                     path: "checkout",
-                    element: <CheckOut />
+                    element: <Checkout />
                },
                {
                     path: "login",

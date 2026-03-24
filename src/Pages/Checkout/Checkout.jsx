@@ -1,7 +1,7 @@
 import CheckoutPage from "../../Components/Checkout/CheckoutPage";
 import HeroSection from "../../Components/HeroSection/HeroSection";
 
-export default function CheckOut() {
+export default function Checkout() {
   return (
     <>
       <HeroSection height="h-[20vh]" />
